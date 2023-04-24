@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #292929;
+}
+
+nav {
+    width: 100%;
+    background-color: #171717;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}  
+
+section#menu {
+    width: 50%;
+}
+
+section#menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+section#menu ul li {
+    font-family: 'Open sans';
+    list-style: none;
+    text-align: center;
+    width: 110px;
+    line-height: 45px;
+    border-radius: 10px;
+}
+
+section#menu ul a {
+    text-decoration: none;
+    color: #EBEBEB;
+}
+
+section#logo {
+    margin-right: 10%;
+}
+
+section#logo img {
+    width: 75px;
+}
+
+nav section#menu ul li:hover {
+    background-color: #D86427;
+    cursor: pointer;
+    width: 110px;
+    height: 45px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section#texto1 {
+    width: 55%;
+    margin-left: 6.5%;
+}
+
+main section#texto1 h1 {
+    font-size: 53px;
+    color: #D86427;
+    margin-bottom: 20px;
+}
+
+main section#texto1 p {
+    font-size: 20px;
+    width: 55%;
+    color: #EBEBEB;
+    padding-bottom: 20px;
+    margin-top: 0;
+} 
+
+main section#texto1 button {
+    width: 150px;
+    height: 80px;
+    background-color: #D86427;
+    border-color: #D86427;
+    border-radius: 10%;
+    font-size: 24px;
+    color: #EBEBEB;
+}
+
+main section#texto1 a {
+    width: 150px;
+    height: 80px;
+}
+
+main section#texto1 button:hover {
+    cursor: pointer;
+}
+
+main section#perfil {
+    margin-right: 14%;
+    margin-top: 0%;
+}
+
+main section#perfil img {
+    width: 350px;
+    height: 480px;
+    border-radius: 45%;
+}
+
+footer {
+    width: 100%;
+    height: 45px;
+    bottom: 0;
+    position: fixed;
+}
+
+footer section {
+    width: 100%;
+    height: 50px;
+    background-color: #171717;
+}
+
+footer section#icones {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    height: 45px;
+    margin-left: 0.5%;
+}
+
+footer section#icones img:nth-child(3) {
+    width: 24px;
+}
+
+footer section#icones img:nth-child(2) {
+    width: 24px;
+}
+
+footer section#icones img:nth-last-child(1) {
+    width: 28px;
+}
+
+footer section#icones img:hover {
+    background-color: #D86427;
+    border-radius: 50%;
+    cursor: pointer;
+}

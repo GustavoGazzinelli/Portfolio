@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #292929;
+}
+
+nav {
+    width: 100%;
+    background-color: #171717;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}  
+
+section#menu {
+    width: 50%;
+}
+
+section#menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+section#menu ul li {
+    font-family: 'Open sans';
+    list-style: none;
+    text-align: center;
+    width: 110px;
+    line-height: 45px;
+    border-radius: 10px;
+}
+
+section#menu ul a {
+    text-decoration: none;
+    color: #EBEBEB;
+}
+
+section#logo {
+    margin-right: 10%;
+}
+
+section#logo img {
+    width: 75px;
+}
+
+nav section#menu ul li:hover {
+    background-color: #D86427;
+    cursor: pointer;
+    width: 110px;
+    height: 45px;
+}
+
+main {
+    width: 100%;
+}
+
+section#texto {
+    width: 84%;
+    margin-left: 6.5%;
+}
+
+section#titulo {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5%;
+}
+
+section#titulo h1 {
+    font-size: 53px;
+    color: #D86427;
+    margin-right: 40px;
+}
+
+section#titulo hr {
+    flex-grow: 1;
+    height: 3px;
+    border: none;
+    background-color: #D86427;
+}
+
+section#objetos {
+    margin-left: 6.5%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    margin-bottom: 5%;
+}
+
+section#botoes {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40%;
+}
+
+section#botao1 {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 12%;
+    margin-top: 5%;
+}
+
+section#botao1 button {
+    background-color: #D86427;
+    width: 94px;
+    height: 70px;
+    border-color: #D86427;
+    border-radius: 10px;
+}
+
+section#botao1 a {
+    margin-right: 3.5%;
+    width: 94px;
+    height: 70px;
+}
+
+
+section#botao1 h2 {
+    color: #EBEBEB;
+    font-size: 20px;
+    font-family: 'Open Sans';
+}
+
+section#botao1 {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 10%;
+    margin-top: 1.5%;
+}
+
+section#botao1 img {
+    width: 50px;
+}
+
+section#botao2 {
+    display: flex; 
+    align-items: center;
+}
+
+section#botao2 button {
+    background-color: #D86427;
+    width: 94px;
+    height: 70px;
+    border-color: #D86427;
+    border-radius: 10px;
+}
+
+section#botao2 a {
+    margin-right: 3.5%;
+    width: 94px;
+    height: 70px;
+}
+
+section#botao2 h2 {
+    color: #EBEBEB;
+    font-size: 20px;
+    font-family: 'Open Sans';
+}
+
+section#botao2 img {
+    width: 40px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+section#mensagem form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#mensagem {
+    float: right;
+    margin-right: 5%;
+}
+
+section#mensagem form input {
+    border-radius: 5px;
+    border: solid #EBEBEB;
+    background-color: #EBEBEB;
+    width: 400px;
+    height: 30px;
+    margin: 1%;
+    margin-left: 0%;
+    font-family: 'Open Sans';
+}
+
+section#mensagem form textarea {
+    border-radius: 5px; 
+    width: 400px;
+    margin: 1%;
+    margin-left: 0%;
+    font-family: 'Open Sans';
+    resize: none;
+}
+
+section#mensagem form button {
+    border-radius: 5px;
+    width: 400px;
+    height: 60px;
+    background-color: #D86427;
+    border: #D86427;
+    color: #EBEBEB;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 20px;
+    font-family: 'Open Sans';
+}
+
+footer {
+    width: 100%;
+    height: 45px;
+    bottom: 0;
+    position: fixed;
+}
+
+footer section {
+    width: 100%;
+    height: 50px;
+    background-color: #171717;
+}
+
+footer section#icones {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    height: 45px;
+    margin-left: 0.5%;
+}
+
+footer section#icones img:nth-child(3) {
+    width: 24px;
+}
+
+footer section#icones img:nth-child(2) {
+    width: 24px;
+}
+
+footer section#icones img:nth-last-child(1) {
+    width: 28px;
+}
+
+footer section#icones img:hover {
+    background-color: #D86427;
+    border-radius: 50%;
+    cursor: pointer;
+}
