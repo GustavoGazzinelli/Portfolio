@@ -55,6 +55,12 @@ nav section#menu ul li:hover {
 
 main {
     width: 100%;
+    height: 100%;
+}
+
+section#tudo {
+    width: 100%;
+    height: 75%;
 }
 
 section#texto {
@@ -88,11 +94,11 @@ section#titulo hr {
 }
 
 section#objetos {
-    margin-left: 6.5%;
+    margin-left: 1%;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
 }
 
 section#botoes {
@@ -154,7 +160,7 @@ section#botao2 button {
 }
 
 section#botao2 a {
-    margin-right: 3.5%;
+    margin-right: 4%;
     width: 94px;
     height: 70px;
 }
@@ -180,7 +186,7 @@ section#mensagem form {
 
 section#mensagem {
     float: right;
-    margin-right: 2%;
+    margin-right: 5%;
 }
 
 section#mensagem form input {
