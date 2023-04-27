@@ -56,8 +56,15 @@ nav section#menu ul li:hover {
 main {
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section#tudo {
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 main section#texto1 {

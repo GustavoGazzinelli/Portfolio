@@ -66,12 +66,15 @@ section#titulo {
     display: flex;
     align-items: center;
     margin-top: 0.5%;
+    margin-bottom: 0;
 }
 
 section#titulo h1 {
     font-size: 53px;
     color: #D86427;
     margin-right: 40px;
+    margin-bottom: 3%;
+    position: relative;
 }
 
 section#titulo hr {
@@ -79,6 +82,9 @@ section#titulo hr {
     height: 3px;
     border: none;
     background-color: #D86427;
+    margin-top: 5%;
+    position: absolute;
+
 }
 
 section#objetos {
@@ -174,7 +180,7 @@ section#mensagem form {
 
 section#mensagem {
     float: right;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 section#mensagem form input {
